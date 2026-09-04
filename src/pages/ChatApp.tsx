@@ -416,7 +416,7 @@ Docusign | Enterprise Sales`
   return { accountName: target.name, subject, body }
 }
 
-function detectResponseType(input: string, history: Message[]): ResponseType {
+function detectResponseType(input: string, _history: Message[]): ResponseType {
   const q = input.toLowerCase()
   if (/closed.?lost|loss.?review|mark.*(lost|dead)|deal.*(dead|lost)/i.test(q)) return 'opportunity-scribe'
   if (/scribe|post.?call|meddpicc|opportunity.?update|call.?review|gong.?review/i.test(q)) return 'opportunity-scribe'

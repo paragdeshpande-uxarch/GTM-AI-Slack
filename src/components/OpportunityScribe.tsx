@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Mic, GitCompare, CheckCircle2, Users, UserPlus, ChevronDown, Shield, Target, TrendingUp, Calendar } from 'lucide-react'
+import { Mic, GitCompare, CheckCircle2, Users, UserPlus, ChevronDown, Shield, Target, TrendingUp } from 'lucide-react'
 import { cn } from '../lib/utils'
 import { BKDivider, BKButton, BKTag } from './bk'
 import type { ScribePayload } from '../data/scribeData'
